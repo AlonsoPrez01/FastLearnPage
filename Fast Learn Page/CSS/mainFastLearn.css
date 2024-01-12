@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-image: url(../Imagenes/backgroundFastLearn.png);
+    width: 1600;
+    height: 1855;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header{
+    background-color: #006155;
+    overflow: hidden;
+    width: 1220px;
+}
+
+.contenedor{
+    margin: auto;
+    overflow: hidden;
+    width: 1220px;
+}
+
+.logotipo{
+    padding: 60px 0 60px 40px;
+    float: left;
+}
+
+nav{
+    float: left;
+    padding-top: 40px;
+}
+
+nav ul{
+    float: left;
+    padding-top: 20px;
+}   
+
+nav ul li{
+    display: inline;
+    padding: 0px 50px 0 50px;
+}   
+
+.btnAcceso{
+    padding: 60px 55px 0 0;
+}
+
+.btnAcceso button{
+    width: 190px;
+    height: 60px;
+    float: right;
+    font-size: 18px;
+    color: black;
+    background-color: #00c2b0;
+}
+
+.contenido{
+    background-color: #00786b;
+    height: 1425px;
+}
+
+.formulario{
+    float: right;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 35px;
+    padding-top: 75px;
+    padding-right: 25px;
+}
+
+.formulario h1{
+    margin-left: 15px;
+}
+
+#reservacion{
+    width: 710px;
+    height: 555px;
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-left: 55px;
+    background-color: #002b28;
+    border-radius: 10px;
+    float: left;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#reservacion h3{
+    font-size: 23px;
+}
+
+.nombreCorreo{
+    width: 640px;
+    height: 55px;
+    margin-bottom: 30px;
+    float: left;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.nombreCorreo::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.sucursalFecha{
+    margin-top: 30px;
+    width: 300px;
+    height: 57px;
+    margin-right: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+}
+
+.sucursalFecha::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+#btnReservar{
+    width: 650px;
+    height: 55px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    background-color: #00c2b0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+#reservacion p b{
+    font-size: 23px !important;
+}
+
+#reservación h4{
+    margin-top: 30px;
+}
+
+#reservacion div{
+    margin-top: 15px;
+    font-size: 37px;
+}
+
+.contenedor figure{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.primerasImagenes{
+    border: solid 15px #0c998a;
+    margin-bottom: 60px;
+}
+
+.contenido h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.reservacionesCursos{
+    padding-left: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.reservacionesCursos img{
+    margin-bottom: 40px;
+}
+
+.reservacionesCursos h1{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.reservacionesCursos p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btnEspacioReservar{
+    margin-top: 15px;
+    width: 530px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00c2b0;
+}
+
+article{
+    float: left;
+    overflow: hidden;
+}
+
+footer{
+    width: 1220px;
+    height: 90px;
+    background-color: #006155;
+}
+
+#derechos{
+    padding-top: 35px;
+    padding-left: 55px;
+    float: left;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+#imgsRedesSociales{
+    float: right;
+    padding-top: 25px;
+    padding-right: 60px;
+}
+
+#whatsapp{
+    width: 71px;
+    height: 51px;
+    float: right;
+    background: url(../Imagenes/whatsappFALE.png) no-repeat;
+}
+
+#twitter{
+    width: 71px;
+    height: 51px;
+    float: right;
+    background: url(../Imagenes/twiitterFALE.png) no-repeat;
+}
+
+#facebook{
+    width: 71px;
+    height: 51px;
+    float: right;
+    background: url(../Imagenes/facebookFALE.png) no-repeat;
+}
+
+#instagram{
+    width: 71px;
+    height: 51px;
+    float: right;
+    background: url(../Imagenes/instagramFALE.png) no-repeat;
+}

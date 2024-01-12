@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Fast</title>
+    <link rel="stylesheet" href="CSS/mainFastLearn.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logotipo">
+                <img src="Imagenes/logoLearnFast.png" alt="Fast Learn">
+            </div>
+            <div class="btnAcceso">
+                <button type="button"><b>Acceso</b></button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><b>Inicio</b></a></li>
+                    <li><a href="#"><b>Cursos</b></a></li>
+                    <li><a href="#"><b>Sobre nosotros</b></a></li>
+                    <li><a href="#"><b>Miembros</b></a></li>
+                    <li><a href="#"><b>Contacto</b></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="contenedor contenido">
+            <div class="formulario">
+                <h1><b>Inicia tus clases de manejo. <br>¡Agenda tu cita de manera fácil!</b></h1>
+                <figure id="reservacion">
+                    <input class="nombreCorreo" type="text" name="Nombre" placeholder="NOMBRE COMPLETO" required>
+                    <input class="nombreCorreo" type="email" name="Correo" placeholder="CORREO ELECTRÓNICO" required>
+                    <h3>Selecciona una de nuestras sucursales y la fecha para comenzar.</h3>
+                    <input class="sucursalFecha" type="text" name="Sucursal" placeholder="ELIJA LA SUCURSAL" required list="listaSucursales">
+                    <datalist id="listaSucursales">
+                        <option>Cancún</option>
+                        <option>Playa del Carmen</option>
+                        <option>Tulum</option>
+                        <option>Mérida</option>
+                    </datalist>
+                    <input class="sucursalFecha" type="text" name="Fecha" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="FECHA DE INICIO" required> 
+                    <button type="submit" id="btnReservar"><b>RESERVAR AHORA</b></button>
+                    <p><b>Al agendar una cita nos reservamos el derecho de disponibilidad, <br>por lo que trataremos de ajustarnos en lo posible.</b></p>
+                    <div>
+                        <h4>¡Vive la experiencia FAST LEARN!</h4>
+                    </div>
+                </figure>
+            </div>
+            <figure>
+                <img class="primerasImagenes" src="Imagenes/img1fastlearn.png" alt="Imagen 1">
+                <img class="primerasImagenes" src="Imagenes/imagen2.png" alt="Imagen 2">
+            </figure>
+            <h2><b>En Marzo ¡Iniciamos nuestros primeros cursos!</b></h2>
+            <article class="reservacionesCursos">
+                <img src="Imagenes/reservar1.png" alt="ReservacionIMG_1">
+                <h1>Curso para principiantes</h1>
+                <P>Lorem Ipsum is simply dummy textof the printing and <br>typesetting industry.</P>
+                <button class="btnEspacioReservar" type="button">RESERVAR SU ESPACIO</button>
+            </article>
+            <article class="reservacionesCursos">
+                <img src="Imagenes/reservar2.png" alt="ReservacionIMG_2">
+                <h1>Curso para Avanzados</h1>
+                <p>Lorem Ipsum is simply dummy textof the printing and <br>typesetting industry.</p>                    <button class="btnEspacioReservar" type="button">RESERVAR SU ESPACIO</button>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div id="derechos">
+            <p>2022 @ Todos los Derechos Reservados</p>
+        </div>
+        <div id="imgsRedesSociales">
+            <button id="whatsapp" type="button"></button>
+            <button id="twitter" type="button"></button>
+            <button id="facebook" type="button"></button>
+            <button id="instagram" type="button"></button>
+        </div>
+    </footer>
+</body>
+</html>
